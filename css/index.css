@@ -1,0 +1,178 @@
+/*主要css*/
+html,
+body {
+  font: 14px PingHei, 'Hiragino Sans GB', 'Microsoft YaHei';
+  font-size: 16px;
+  background: #ebebeb;
+}
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  background: #a50100;
+  color: #fff;
+}
+#main {
+  padding: 40px 0 50px;
+}
+#main .info {
+  padding: 8px 0 8px 10px;
+}
+#main .info img {
+  float: left;
+  margin: 0 12px 0 0;
+}
+#main .info .info-content {
+  overflow: hidden;
+  padding: 8px 0 0 0;
+}
+#main .info .info-content .name {
+  font-size: 17px;
+}
+#main .info .info-content .account {
+  margin: 5px 0 0 0;
+  color: #999;
+  font-weight: 500;
+  font-size: 15px;
+}
+#main .info .code {
+  position: relative;
+  float: right;
+  width: 60px;
+  height: 58px;
+}
+#main .info .code i {
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin: 18px auto;
+  background: url(../img/mark.png) no-repeat;
+  background-size: contain;
+}
+#main .part {
+  margin: 16px 0;
+  background: #fff;
+  color: #2d2d2d;
+}
+#main .part .part-content {
+  position: relative;
+  padding: 0 18px;
+}
+#main .part .part-content:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 8px;
+  width: 20px;
+  height: 46px;
+  background: url(../img/arrow.png) right center no-repeat;
+  background-size: 20px;
+}
+#main .part .part-content:active {
+  background: #eee;
+}
+#main .part .part-content a {
+  display: block;
+  padding: 12px 0 12px 34px;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+#main .part .part-content:nth-of-type(1) a {
+  border-bottom: 1px solid #eee;
+}
+#main .part .part-content:last-of-type a {
+  border-bottom: none;
+}
+#main .part-photo a {
+  background: url(../img/alarm-clock-blue.png) 2px center no-repeat;
+  background-size: 24px;
+}
+#main .part-collect a {
+  background: url(../img/bell.png) 2px center no-repeat;
+  background-size: 24px;
+}
+#main .part-wallet a {
+  background: url(../img/blue-folder-horizontal.png) 2px center no-repeat;
+  background-size: 24px;
+}
+#main .part-card a {
+  background: url(../img/book.png) 2px center no-repeat;
+  background-size: 24px;
+}
+#main .part-express a {
+  background: url(../img/calendar-blue.png) 2px center no-repeat;
+  background-size: 24px;
+}
+#main .part-setting a {
+  background: url(../img/inbox-table.png) 2px center no-repeat;
+  background-size: 24px;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  border-top: 2px solid #e7e7e7;
+  background: #fff;
+}
+#footer li {
+  float: left;
+  width: 25%;
+}
+#footer li a {
+  display: block;
+  height: 48px;
+  padding: 4px 0 0;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  color: #999;
+}
+#footer li a i {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 0 4px 0;
+}
+#footer li a i .badge {
+  position: absolute;
+  top: -2px;
+  right: -10px;
+  min-width: 16px;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 8px;
+  background: #ff3e3f;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 10px;
+}
+#footer li .chat i {
+  background: url(../img/chat.png) center center no-repeat;
+  background-size: contain;
+}
+#footer li .contact i {
+  background: url(../img/contact.png) center center no-repeat;
+  background-size: contain;
+}
+#footer li .find i {
+  background: url(../img/find.png) center center no-repeat;
+  background-size: contain;
+}
+#footer li .me {
+  color: #44c511;
+}
+#footer li .me i {
+  background: url(../img/meactive.png) center center no-repeat;
+  background-size: contain;
+}
